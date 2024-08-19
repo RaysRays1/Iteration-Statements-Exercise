@@ -1,0 +1,15 @@
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/bin/Debug/net6.0/IterationStatements3
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/bin/Debug/net6.0/IterationStatements3.deps.json
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/bin/Debug/net6.0/IterationStatements3.runtimeconfig.json
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/bin/Debug/net6.0/IterationStatements3.dll
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/bin/Debug/net6.0/IterationStatements3.pdb
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/IterationStatements3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/IterationStatements3.AssemblyInfoInputs.cache
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/IterationStatements3.AssemblyInfo.cs
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/IterationStatements3.csproj.CoreCompileInputs.cache
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/IterationStatements3.sourcelink.json
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/IterationStatements3.dll
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/refint/IterationStatements3.dll
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/IterationStatements3.pdb
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/IterationStatements3.genruntimeconfig.cache
+/Users/raynardbrown/Desktop/repos/Iteration-Statements-Exercise/IterationStatements3/obj/Debug/net6.0/ref/IterationStatements3.dll
