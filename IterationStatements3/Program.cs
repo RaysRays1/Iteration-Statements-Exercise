@@ -33,14 +33,20 @@ namespace IterationStatements3
         //    - Method Signature: bool AreNumbersEqual(int num1, int num2)
         //    - Returns true if the numbers are equal, false otherwise.
 
-        public static void AreNumbersEqual()
+        public static bool AreNumbersEqual()
         {
             int num1 = 10;
-            int num2 = 10;
+            int num2 = 10;    
 
             if (num1 == num2)
             {
                 Console.WriteLine(true);
+                return true;
+            }
+            else
+            {
+                Console.WriteLine(false);
+                return false;
             }
         }
 
@@ -52,10 +58,14 @@ namespace IterationStatements3
         {
             if (number % 2 == 0)
             {
+                Console.WriteLine(true);
                 return true;
             }
-
-            return false;
+            else
+            {
+                Console.WriteLine(false);
+                return false;
+            }
         }
 
         // 5. Write a method that checks if a given number is positive or negative.
@@ -66,10 +76,14 @@ namespace IterationStatements3
         {
             if (number - 2 <= 3)
             {
+                Console.WriteLine(true);
                 return true;
             }
-
-            return false;
+            else
+            {
+                Console.WriteLine(false);
+                return false;
+            }
         }
 
         // 6. Write a method that reads the age of a candidate and determines if they are eligible to vote.
@@ -79,7 +93,7 @@ namespace IterationStatements3
 
         public static bool CanVote()
         {
-            int Age = 21;
+            int Age = 18;
             Console.WriteLine("What your age");
             string userInput = Console.ReadLine();
             int parsedUserInput = int.Parse(userInput);
@@ -108,28 +122,14 @@ namespace IterationStatements3
 
         public static bool IsInRange(int number)
         {
-            int Range = 10;
-            int Range2 = -10;
-            Console.WriteLine("Pick a number between -15 and 15 and try to guess the range i've picked?");
-            Console.ReadLine();
-            string userInput = Console.ReadLine();
-            int parsedUserInput = int.Parse(userInput);
-
-            bool InRange = true;
-            if (parsedUserInput <= Range)
+            if (number <= 10 && number >= -10)
             {
-                Console.WriteLine("true");
-            }
-            else if (parsedUserInput >= Range2)
-            {
-                Console.WriteLine("true");
+                return true;
             }
             else
             {
-                Console.WriteLine("Out of Range");
+                return false;
             }
-
-            return false;
 
 
         }
@@ -232,12 +232,24 @@ namespace IterationStatements3
             //PrintNumber();
             //PrintEveryThridNumber();
             //AreNumbersEqual();
-            //bool answer1 = IsEven(10);
+           // bool answer1 = IsEven(3);
             //Console.WriteLine(answer1);
-            //bool answer2 = IsPositive(7);
+            //bool answer2 = IsPositive(2);
             //Console.WriteLine(answer2);
             //CanVote();
-            //IsInRange();
+            
+            Console.WriteLine("give me a number to check a range");
+            var canParse = int.TryParse(Console.ReadLine(), out int number);
+
+            while (!canParse)
+            {
+                Console.WriteLine("Please enter a number");
+                canParse = int.TryParse(Console.ReadLine(), out number);
+                
+            }
+            Console.WriteLine(IsInRange(number));
+            
+            
             // DisplayMultiplicationTable();
 
         }
